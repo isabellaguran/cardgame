@@ -1,0 +1,94 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body{
+  background: #001F3D;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  margin-top: 1rem;
+  width: 70%;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 18rem;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+h1{
+  font-size: 3rem;
+  color: #f4f4f4;
+}
+
+input {
+  margin-bottom : 2rem;
+  max-width: 15rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  border: 1px solid #001F3D;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #001F3D;
+  background: #f4f4f4;
+}
+
+h4{
+  color: #f4f4f4;
+
+}
+
+button{
+  margin-top: 2rem;
+  background: #CD0080;
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border : 1px solid #CD0080;
+  border-radius: 30px;
+  padding: 1rem 2.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: .3s;
+}
+
+h3{
+  color: #f4f4f4;
+  font-size: 2rem;
+}
+
